@@ -1,0 +1,142 @@
+@media (max-width:1300px){
+    .nav-cont{
+        display: none;
+    }
+.splash-cont{
+    height: 100vh;
+    background-image: url(https://cdn.discordapp.com/attachments/984217996459389008/1090379871592660992/image10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:local !important;
+    display: flex;
+    justify-content: center;
+}
+.asset-cont{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:local !important;
+    display: flex;
+    justify-content: center;
+}
+.splash-cont .inner h1{
+    font-size: 500%;
+}
+.video-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.video-cont video{
+    width: 80%;
+}
+.video-cont .box{
+    flex-direction: column;
+}
+.video-cont .box .inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.video-cont .box .inner p{
+    width: 80%;
+}
+.gallery-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digital-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.roadmap-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.roadmap-cont .outer .text-box{
+    gap: 10rem;
+}
+.partner-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+.partner-cont .inner .row{
+    flex-direction: column;
+}
+.partner-cont .inner img{
+    width: 50%;
+}
+.artist-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.artist-cont .header {
+    font-size: 100%;
+}
+.artist-cont .box .inner{
+    flex-direction: column;
+}
+.artist-cont .box .inner img{
+    width: 100% !important;
+}
+.artist-cont p{
+    width: 100%;
+}
+.team-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+.faq-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+.faq-cont .inner{
+    flex-direction: column;
+}
+.faq-cont .inner .left img{
+    width: 80%;
+    padding-bottom: 5rem;
+}
+.faq-cont .inner .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-cont{
+    height: 50vh;
+    position: relative;
+}
+.footer-cont img{
+    width: 60%;
+}
+}
